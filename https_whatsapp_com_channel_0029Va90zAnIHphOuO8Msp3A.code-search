@@ -1,0 +1,9 @@
+# Query: https://whatsapp.com/channel/0029Vb5QCyX2phHT4MEAsq0g
+# ContextLines: 1
+
+1 result - 1 file
+
+killerC\main.js:
+  117  global.author = settings.author;
+  118: global.channelLink = "https://whatsapp.com/channel/0029Vb5QCyX2phHT4MEAsq0g";
+  119  global.ytch = "The Mathemagician";

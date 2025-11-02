@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Bailey Library — Admin Panel (THE MATHEMAGICIAN)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root{
+      --bg:#0b1221; --card:#0f1724; --muted:#9aa6c0; --accent:#7dd3fc; --danger:#ff6b6b; --success:#8ef78e;
+      --glass: rgba(255,255,255,0.03);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%; margin:0; background:linear-gradient(180deg,#031022 0%, #071426 100%); color:#e6eef8;}
+    .wrap{max-width:1100px;margin:24px auto;padding:20px;}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+    header h1{font-size:20px;margin:0;color:var(--accent)}
+    .panel{background:var(--card); border-radius:12px; padding:16px; box-shadow:0 4px 24px rgba(2,6,23,0.6); margin-bottom:12px}
+    .row{display:flex;gap:12px;align-items:center}
+    .col{flex:1}
+    .muted{color:var(--muted); font-size:13px}
+    .btn{background:var(--accent); border:none;color:#042033;padding:8px 12px;border-radius:8px;cursor:pointer}
+    .btn.ghost{background:transparent;border:1px solid rgba(125,211,252,0.12);color:var(--accent)}
+    .btn.danger{background:var(--danger); color:#140808}
+    .input, textarea, select{width:100%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:var(--glass);color:inherit}
+    .list{max-height:420px;overflow:auto;margin-top:12px}
+    .item{border-radius:10px;padding:12px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);margin-bottom:10px;display:flex;gap:12px}
+    .meta{min-width:200px;flex:0 0 220px}
+    .body{flex:1}
+    .small{font-size:13px;color:var(--muted)}
+    .thumb{width:160px;height:100px;object-fit:cover;border-radius:8px;border:1px solid rgba(255,255,255,0.03)}
+    footer{margin-top:20px;color:var(--muted);font-size:12px}
+    .flex{display:flex;gap:8px;align-items:center}
+    .tag{background:rgba(255,255,255,0.02);padding:4px 8px;border-radius:8px;font-size:12px;color:var(--muted)}
+    .reason{width:180px}
+    .ok{color:var(--success)}
+    .error{color:var(--danger)}
+    pre{white-space:pre-wrap;background:rgba(0,0,0,0.2);padding:8px;border-radius:8px;color:#dbeafe}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 24 24'%3E%3Cpath fill='%237dd3fc' d='M12 2L3 7v7c0 5 4 9 9 9s9-4 9-9V7L12 2z'/%3E%3C/path%3E%3C/svg%3E" alt="logo" />
+      <div>
+        <h1>Bailey Library — Admin (THE MATHEMAGICIAN)</h1>
+        <div class="muted">Local dashboard · Approve payment proofs · Audit trail · Manual override</div>
+      </div>
+      <div style="margin-left:auto">
+        <button id="logoutBtn" class="btn ghost" style="display:none">Logout</button>
+      </div>
+    </header>
+
+    <div class="panel" id="loginPanel">
+      <div style="display:flex;gap:12px;align-items:center">
+        <div style="width:260px">
+          <label class="small">Admin username</label>
+          <input id="username" class="input" value="admin" />
+        </div>
+        <div style="width:260px">
+          <label class="small">Password</label>
+          <input id="password" type="password" class="input" value="magicode2025" />
+        </div>
+        <div style="width:220px">
+          <label class="small">MFA token (for sticky actions)</label>
+          <input id="mfa" class="input" placeholder="ADMIN_MFA_TOKEN" />
+        </div>
+        <div style="flex:0 0 auto">
+          <button id="loginBtn" class="btn">Login</button>
+        </div>
+      </div>
+      <div class="muted" style="margin-top:8px">
+        If the server is local you may use the dev credentials. This UI stores the JWT only in sessionStorage.
+      </div>
+    </div>
+
+    <div id="mainPanel" style="display:none">
+      <div class="panel">
+        <div class="row">
+          <div class="col">
+            <div class="small">Pending verifications</div>
+            <div class="list" id="pendingList">
+              <!-- items injected here -->
+            </div>
+          </div>
+
+          <div style="width:360px">
+            <div class="small">Admin actions</div>
+            <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+              <div>
+                <label class="small">Add manual subscriber</label>
+                <input id="manualPhone" class="input" placeholder="+26377..." />
+                <div style="display:flex;gap:8px;margin-top:8px">
+                  <label style="display:flex;gap:6px;align-items:center" class="small"><input id="manualSticky" type="checkbox" /> sticky</label>
+                  <input id="manualReason" class="input reason" placeholder="reason (optional)" />
+                  <button id="addManualBtn" class="btn">Add</button>
+                </div>
+                <div class="muted" style="margin-top:6px">Sticky entries persist to runtime store (requires MFA).</div>
+              </div>
+
+              <div>
+                <label class="small">Reload manual store</label>
+                <div style="display:flex;gap:8px;margin-top:8px">
+                  <button id="reloadManualBtn" class="btn ghost">Reload</button>
+                  <div id="manualCount" class="tag">—</div>
+                </div>
+              </div>
+
+              <div>
+                <label class="small">Audit logs</label>
+                <div style="height:160px;overflow:auto;padding:8px;background:rgba(255,255,255,0.02);border-radius:8px;color:var(--muted)" id="auditBox">loading…</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="panel small">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div>THE MATHEMAGICIAN — Local admin console</div>
+          <div id="status" class="muted">status: idle</div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+<script>
+/*
+  Minimal Admin UI (single-file)
+  - Login to /admin/login => receives token
+  - Lists pending verifications from /admin/verifications/pending
+  - Actions:
+      - Verify: POST /admin/verifications/:id/verify  (body: {reason})
+      - Reject: POST /admin/verifications/:id/reject  (body: {reason})
+      - Add manual: POST /admin/manual/add (body: {phone, sticky, reason}) (requires MFA: x-mfa-token header)
+      - Reload manual store: POST /admin/manual/reload (requires MFA)
+  - Audit log GET /admin/logs
+*/
+
+const state = { token: null };
+
+function apiFetch(path, opts={}) {
+  const headers = opts.headers || {};
+  if (state.token) headers['Authorization'] = 'Bearer ' + state.token;
+  opts.headers = headers;
+  return fetch(path, opts).then(async r => {
+    const ct = r.headers.get('content-type') || '';
+    const body = ct.includes('application/json') ? await r.json().catch(()=>null) : await r.text().catch(()=>null);
+    if (!r.ok) throw { status: r.status, body };
+    return body;
+  });
+}
+
+document.getElementById('loginBtn').addEventListener('click', async () => {
+  const u = document.getElementById('username').value.trim();
+  const p = document.getElementById('password').value;
+  if (!u || !p) return alert('enter credentials');
+  try {
+    const res = await apiFetch('/admin/login', { method: 'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ username: u, password: p }) });
+    const token = res.token || res.accessToken || res;
+    state.token = typeof token === 'string' ? token : token.token || token.accessToken;
+    sessionStorage.setItem('admin_jwt', state.token);
+    document.getElementById('loginPanel').style.display = 'none';
+    document.getElementById('mainPanel').style.display = 'block';
+    document.getElementById('logoutBtn').style.display = 'inline-block';
+    loadPending();
+    loadAudit();
+    loadManualCount();
+  } catch (err) {
+    console.error(err);
+    alert('Login failed: ' + (err.body?.message || JSON.stringify(err.body) || err.status));
+  }
+});
+
+document.getElementById('logoutBtn').addEventListener('click', () => {
+  state.token = null;
+  sessionStorage.removeItem('admin_jwt');
+  document.getElementById('mainPanel').style.display = 'none';
+  document.getElementById('loginPanel').style.display = 'block';
+  document.getElementById('logoutBtn').style.display = 'none';
+});
+
+window.addEventListener('load', () => {
+  const saved = sessionStorage.getItem('admin_jwt');
+  if (saved) { state.token = saved; document.getElementById('loginPanel').style.display='none'; document.getElementById('mainPanel').style.display='block'; document.getElementById('logoutBtn').style.display='inline-block'; loadPending(); loadAudit(); loadManualCount(); }
+});
+
+async function loadPending(){
+  setStatus('loading pending...');
+  try {
+    const list = await apiFetch('/admin/verifications/pending');
+    renderPending(list || []);
+    setStatus('loaded pending: ' + (list?.length||0));
+  } catch (err) {
+    console.error(err);
+    setStatus('failed to load pending');
+    document.getElementById('pendingList').innerHTML = '<div class="muted">Failed to fetch pending verifications.</div>';
+  }
+}
+
+function renderPending(rows){
+  const container = document.getElementById('pendingList');
+  container.innerHTML = '';
+  if (!rows || !rows.length) { container.innerHTML = '<div class="muted">No pending verifications.</div>'; return; }
+  rows.forEach(r => {
+    const el = document.createElement('div'); el.className='item';
+    const meta = document.createElement('div'); meta.className='meta';
+    meta.innerHTML = `<div><strong>${r.phone}</strong></div><div class="small">id: ${r.id} · status: ${r.status}</div><div class="small">created: ${new Date(r.created_at).toLocaleString()}</div>`;
+    const body = document.createElement('div'); body.className='body';
+    const parsed = r.parsed ? (typeof r.parsed === 'string' ? tryParse(r.parsed) : r.parsed) : {};
+    const ocr = r.ocr_text || parsed.ocrText || '';
+    const prov = r.provider_response ? (typeof r.provider_response === 'string' ? tryParse(r.provider_response) : r.provider_response) : {};
+
+    body.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
+        <div style="flex:1">
+          <div class="small">OCR & parsed</div>
+          <pre>${escapeHtml(ocr || JSON.stringify(parsed, null, 2)).slice(0,2000)}</pre>
+        </div>
+        <div style="width:180px">
+          <div class="small">Provider</div>
+          <pre>${escapeHtml(JSON.stringify(prov, null, 2)).slice(0,800)}</pre>
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;margin-top:8px;align-items:center">
+        <input placeholder="reason (optional)" class="input reason" id="reason-${r.id}" />
+        <button class="btn" data-action="verify" data-id="${r.id}">Verify</button>
+        <button class="btn ghost" data-action="reject" data-id="${r.id}">Reject</button>
+        <button class="btn ghost" data-action="addmanual" data-id="${r.id}" data-phone="${r.phone}">AddManual</button>
+      </div>
+    `;
+
+    // thumbnail column (if media_url)
+    const thumbCol = document.createElement('div'); thumbCol.style.width='160px';
+    if (r.media_url) {
+      const img = document.createElement('img'); img.className='thumb'; img.src = r.media_url; img.alt='receipt';
+      thumbCol.appendChild(img);
+    } else {
+      thumbCol.innerHTML = '<div class="muted small">No media</div>';
+    }
+
+    el.appendChild(meta);
+    el.appendChild(body);
+    el.appendChild(thumbCol);
+    container.appendChild(el);
+  });
+
+  // delegate buttons
+  container.querySelectorAll('button').forEach(btn=>{
+    btn.addEventListener('click', async (ev)=>{
+      const id = btn.dataset.id;
+      const action = btn.dataset.action;
+      const reasonInput = document.getElementById('reason-' + id);
+      const reason = reasonInput ? reasonInput.value.trim() : '';
+
+      if (action === 'verify') {
+        if (!confirm(`Confirm verify id=${id}?`)) return;
+        try {
+          await apiFetch(`/admin/verifications/${id}/verify`, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ reason }) });
+          alert('Verified ✔');
+          loadPending(); loadAudit();
+        } catch (e) {
+          alert('Verify failed: ' + (e.body?.error || JSON.stringify(e.body) || e.status));
+        }
+      } else if (action === 'reject') {
+        const r = reason || prompt('Reason for rejection (optional):') || 'rejected_by_admin';
+        if (!confirm(`Confirm reject id=${id}?`)) return;
+        try {
+          await apiFetch(`/admin/verifications/${id}/reject`, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ reason: r }) });
+          alert('Rejected ✔');
+          loadPending(); loadAudit();
+        } catch (e) {
+          alert('Reject failed: ' + (e.body?.error || JSON.stringify(e.body) || e.status));
+        }
+      } else if (action === 'addmanual') {
+        const phone = btn.dataset.phone;
+        const sticky = document.getElementById('manualSticky').checked;
+        const mfa = document.getElementById('mfa').value.trim();
+        if (sticky && !mfa) return alert('MFA required for sticky add');
+        if (!confirm(`Add ${phone} to manual (sticky=${sticky})?`)) return;
+        try {
+          const headers = {'Content-Type':'application/json'};
+          if (state.token) headers['Authorization'] = 'Bearer ' + state.token;
+          if (sticky) headers['x-mfa-token'] = mfa;
+          const res = await fetch('/admin/manual/add', { method:'POST', headers, body: JSON.stringify({ phone, sticky, reason: document.getElementById('manualReason').value || 'ui_add' }) });
+          const body = await res.json();
+          if (!res.ok) throw body;
+          alert('Added to manual store ✔');
+          loadManualCount(); loadAudit();
+        } catch (e) {
+          alert('Add manual failed: ' + (e?.message || JSON.stringify(e)));
+        }
+      }
+    });
+  });
+}
+
+function tryParse(s) {
+  try { return JSON.parse(s); } catch (e) { return s; }
+}
+
+function escapeHtml(s) { if (!s) return ''; return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#39;"})[c]); }
+
+function setStatus(t) { document.getElementById('status').innerText = 'status: ' + t; }
+
+document.getElementById('addManualBtn').addEventListener('click', async () => {
+  const phone = document.getElementById('manualPhone').value.trim();
+  const sticky = document.getElementById('manualSticky').checked;
+  const reason = document.getElementById('manualReason').value.trim() || 'ui_add';
+  const mfa = document.getElementById('mfa').value.trim();
+  if (!phone) return alert('phone required');
+  if (sticky && !mfa) return alert('MFA required for sticky add');
+
+  try {
+    const headers = { 'Content-Type':'application/json' };
+    if (state.token) headers['Authorization'] = 'Bearer ' + state.token;
+    if (sticky) headers['x-mfa-token'] = mfa;
+    const res = await fetch('/admin/manual/add', { method:'POST', headers, body: JSON.stringify({ phone, sticky, reason }) });
+    const body = await res.json();
+    if (!res.ok) throw body;
+    alert('Added to manual store ✔');
+    document.getElementById('manualPhone').value = '';
+    loadManualCount(); loadAudit(); loadPending();
+  } catch (e) {
+    alert('Add failed: ' + (e?.message || JSON.stringify(e)));
+  }
+});
+
+document.getElementById('reloadManualBtn').addEventListener('click', async () => {
+  const mfa = document.getElementById('mfa').value.trim();
+  if (!mfa) return alert('MFA required to reload');
+  try {
+    const headers = { 'Content-Type':'application/json' };
+    if (state.token) headers['Authorization'] = 'Bearer ' + state.token;
+    headers['x-mfa-token'] = mfa;
+    const res = await fetch('/admin/manual/reload', { method:'POST', headers });
+    const body = await res.json();
+    if (!res.ok) throw body;
+    alert('Reloaded manual store: count=' + body.count);
+    loadManualCount();
+  } catch (e) {
+    alert('Reload failed: ' + (e?.message || JSON.stringify(e)));
+  }
+});
+
+async function loadAudit(){
+  setStatus('loading audit...');
+  try {
+    const logs = await apiFetch('/admin/logs');
+    document.getElementById('auditBox').innerText = (logs && logs.length) ? logs.slice(-200).reverse().map(x => `${x.created_at} ${x.actor||x.admin||'admin'} ${x.action} ${x.target||''} ${x.reason||''}`).join('\n') : 'No audit logs.';
+    setStatus('audit loaded');
+  } catch (e) {
+    document.getElementById('auditBox').innerText = 'Failed to load audit.';
+    setStatus('audit failed');
+  }
+}
+
+async function loadManualCount(){
+  try {
+    const res = await fetch('/admin/manual/reload', { method:'POST', headers: state.token ? {'Authorization':'Bearer '+state.token, 'x-mfa-token': document.getElementById('mfa').value.trim()} : {'x-mfa-token': document.getElementById('mfa').value.trim()} });
+    const body = await res.json();
+    if (res.ok) {
+      document.getElementById('manualCount').innerText = body.count + ' entries';
+    } else {
+      document.getElementById('manualCount').innerText = '—';
+    }
+  } catch (e) {
+    document.getElementById('manualCount').innerText = '—';
+  }
+}
+
+// poll every 10s
+setInterval(()=>{ if (state.token) loadPending(); }, 10000);
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+# Core Python packages
+asyncio>=3.4.3
+threading>=3.8
+typing>=3.8
+
+# AI and ML packages
+ollama>=0.1.7
+
+# Git integration
+GitPython>=3.1.40
+
+# System monitoring
+psutil>=5.9.0
+
+# Data serialization
+pyyaml>=6.0
+pydantic>=2.0.0
+
+# HTTP requests
+aiohttp>=3.8.0
+requests>=2.31.0
+
+# Cache and performance
+functools-lru-cache>=1.6.3
+memory-profiler>=0.60.0
+
+# Security and validation
+cryptography>=41.0.0
+
+# Logging and monitoring
+structlog>=23.1.0
+
+# File system monitoring
+watchdog>=3.0.0
+
+# Testing framework
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Development tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Production deployment
+uvloop>=0.17.0
+gunicorn>=21.2.0
+
+# Optional: Redis for distributed caching
+redis>=4.6.0
+
+# Optional: Database support
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Optional: Metrics and monitoring
+prometheus-client>=0.17.0
+grafana-client>=3.3.0

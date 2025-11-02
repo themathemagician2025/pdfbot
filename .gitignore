@@ -1,0 +1,32 @@
+ # Dependencies
+ node_modules/
+ package-lock.json
+ 
+ # Runtime data
+ tmp/
+ temp/
+ 
+ # Session files
+ session/
+ 
+
+ # Environment variables and API keys
+ .env
+ OPEN_API_KEY.ini
+ 
+ # Log files
+ *.log
+ npm-debug.log*
+ yarn-debug.log*
+ yarn-error.log*
+ 
+ # Editor directories and files
+ .idea/
+ .vscode/
+ *.suo
+ *.ntvs*
+ *.njsproj
+ *.sln
+ *.sw?
+node_modules
+node_modules
