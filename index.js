@@ -1,0 +1,1 @@
+require('./killerC/index.js')

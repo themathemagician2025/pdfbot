@@ -1,0 +1,908 @@
+[2025-10-29T17:08:26.354Z] INFO: Starting persona service initialization...
+[2025-10-29T17:08:26.357Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T17:08:26.360Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T17:08:26.363Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T17:08:26.364Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T17:08:26.365Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T17:08:26.895Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T17:08:26.895Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T17:08:26.929Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T17:08:26.930Z] INFO: Registering personas...
+[2025-10-29T17:08:26.932Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T17:08:26.932Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T17:08:26.932Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T17:08:26.933Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T17:08:29.012Z] INFO: Memory service initialized
+[2025-10-29T17:08:29.047Z] INFO: PersonaService is already initialized
+[2025-10-29T17:08:29.091Z] INFO: Memory service initialized
+[2025-10-29T17:11:08.792Z] INFO: Starting persona service initialization...
+[2025-10-29T17:11:08.794Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T17:11:08.795Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T17:11:08.797Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T17:11:08.797Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T17:11:08.798Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T17:11:09.387Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T17:11:09.387Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T17:11:09.419Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T17:11:09.420Z] INFO: Registering personas...
+[2025-10-29T17:11:09.421Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T17:11:09.421Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T17:11:09.422Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T17:11:09.422Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T17:11:11.263Z] INFO: Memory service initialized
+[2025-10-29T17:11:11.289Z] INFO: PersonaService is already initialized
+[2025-10-29T17:11:11.294Z] INFO: Memory service initialized
+[2025-10-29T17:13:56.838Z] INFO: Starting persona service initialization...
+[2025-10-29T17:13:56.840Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T17:13:56.841Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T17:13:56.842Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T17:13:56.843Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T17:13:56.844Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T17:13:57.255Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T17:13:57.256Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T17:13:57.281Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T17:13:57.282Z] INFO: Registering personas...
+[2025-10-29T17:13:57.282Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T17:13:57.283Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T17:13:57.283Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T17:13:57.284Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T17:13:59.062Z] INFO: Memory service initialized
+[2025-10-29T17:13:59.095Z] INFO: PersonaService is already initialized
+[2025-10-29T17:13:59.102Z] INFO: Memory service initialized
+[2025-10-29T17:14:48.582Z] INFO: Starting persona service initialization...
+[2025-10-29T17:14:48.585Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T17:14:48.586Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T17:14:48.587Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T17:14:48.588Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T17:14:48.589Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T17:14:48.923Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T17:14:48.924Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T17:14:48.945Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T17:14:48.946Z] INFO: Registering personas...
+[2025-10-29T17:14:48.946Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T17:14:48.946Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T17:14:48.946Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T17:14:48.947Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T17:14:50.025Z] INFO: Memory service initialized
+[2025-10-29T17:14:50.048Z] INFO: PersonaService is already initialized
+[2025-10-29T17:14:50.050Z] INFO: Memory service initialized
+[2025-10-29T17:37:34.981Z] ERROR: UNHANDLED REJECTION at: Promise {
+  <rejected> Error: Timed Out
+      at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+    data: {
+      stack: 'Error\n' +
+        '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+        '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+        '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+        '    at getAvailablePreKeysOnServer (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:184:30)\n' +
+        '    at uploadPreKeysToServerIfRequired (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:210:35)\n' +
+        '    at WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:514:15)\n' +
+        '    at WebSocketClient.emit (node:events:519:28)\n' +
+        '    at C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:241:35\n' +
+        '    at Object.decodeFrame (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\noise-handler.js:144:17)\n' +
+        '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)'
+    },
+    isBoom: true,
+    isServer: false,
+    output: { statusCode: 408, payload: [Object], headers: {} }
+  }
+} reason: Error: Timed Out
+    at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+  data: {
+    stack: 'Error\n' +
+      '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+      '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+      '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+      '    at getAvailablePreKeysOnServer (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:184:30)\n' +
+      '    at uploadPreKeysToServerIfRequired (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:210:35)\n' +
+      '    at WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:514:15)\n' +
+      '    at WebSocketClient.emit (node:events:519:28)\n' +
+      '    at C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:241:35\n' +
+      '    at Object.decodeFrame (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\noise-handler.js:144:17)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)'
+  },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 408,
+    payload: {
+      statusCode: 408,
+      error: 'Request Time-out',
+      message: 'Timed Out'
+    },
+    headers: {}
+  }
+}
+[2025-10-29T17:39:31.671Z] INFO: Starting persona service initialization...
+[2025-10-29T17:39:31.685Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T17:39:31.687Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T17:39:31.689Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T17:39:31.690Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T17:39:31.691Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T17:39:32.338Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T17:39:32.338Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T17:39:32.373Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T17:39:32.373Z] INFO: Registering personas...
+[2025-10-29T17:39:32.373Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T17:39:32.373Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T17:39:32.373Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T17:39:32.374Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T17:39:34.788Z] INFO: Memory service initialized
+[2025-10-29T17:39:34.844Z] INFO: PersonaService is already initialized
+[2025-10-29T17:39:34.845Z] INFO: Memory service initialized
+[2025-10-29T17:48:04.892Z] ERROR: UNHANDLED REJECTION at: Promise {
+  <rejected> Error: Timed Out
+      at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+    data: {
+      stack: 'Error\n' +
+        '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+        '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+        '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+        '    at getAvailablePreKeysOnServer (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:184:30)\n' +
+        '    at uploadPreKeysToServerIfRequired (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:210:35)\n' +
+        '    at WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:514:15)\n' +
+        '    at WebSocketClient.emit (node:events:519:28)\n' +
+        '    at C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:241:35\n' +
+        '    at Object.decodeFrame (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\noise-handler.js:144:17)\n' +
+        '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)'
+    },
+    isBoom: true,
+    isServer: false,
+    output: { statusCode: 408, payload: [Object], headers: {} }
+  }
+} reason: Error: Timed Out
+    at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+  data: {
+    stack: 'Error\n' +
+      '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+      '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+      '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+      '    at getAvailablePreKeysOnServer (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:184:30)\n' +
+      '    at uploadPreKeysToServerIfRequired (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:210:35)\n' +
+      '    at WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:514:15)\n' +
+      '    at WebSocketClient.emit (node:events:519:28)\n' +
+      '    at C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:241:35\n' +
+      '    at Object.decodeFrame (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\noise-handler.js:144:17)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)'
+  },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 408,
+    payload: {
+      statusCode: 408,
+      error: 'Request Time-out',
+      message: 'Timed Out'
+    },
+    headers: {}
+  }
+}
+[2025-10-29T17:48:33.437Z] INFO: Starting persona service initialization...
+[2025-10-29T17:48:33.454Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T17:48:33.455Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T17:48:33.457Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T17:48:33.458Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T17:48:33.459Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T17:48:34.354Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T17:48:34.354Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T17:48:34.425Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T17:48:34.425Z] INFO: Registering personas...
+[2025-10-29T17:48:34.427Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T17:48:34.427Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T17:48:34.427Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T17:48:34.428Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T17:48:37.801Z] INFO: Memory service initialized
+[2025-10-29T17:48:37.839Z] INFO: PersonaService is already initialized
+[2025-10-29T17:48:37.842Z] INFO: Memory service initialized
+[2025-10-29T17:59:41.658Z] ERROR: UNHANDLED REJECTION at: Promise {
+  <rejected> Error: Timed Out
+      at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+    data: {
+      stack: 'Error\n' +
+        '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+        '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+        '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+        '    at sendPassiveIq (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:331:37)\n' +
+        '    at WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:515:15)\n' +
+        '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)'
+    },
+    isBoom: true,
+    isServer: false,
+    output: { statusCode: 408, payload: [Object], headers: {} }
+  }
+} reason: Error: Timed Out
+    at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+  data: {
+    stack: 'Error\n' +
+      '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+      '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+      '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+      '    at sendPassiveIq (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:331:37)\n' +
+      '    at WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:515:15)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)'
+  },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 408,
+    payload: {
+      statusCode: 408,
+      error: 'Request Time-out',
+      message: 'Timed Out'
+    },
+    headers: {}
+  }
+}
+[2025-10-29T18:02:14.397Z] INFO: Starting persona service initialization...
+[2025-10-29T18:02:14.414Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T18:02:14.416Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T18:02:14.417Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T18:02:14.419Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T18:02:14.419Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T18:02:15.174Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T18:02:15.174Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T18:02:15.225Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T18:02:15.226Z] INFO: Registering personas...
+[2025-10-29T18:02:15.227Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T18:02:15.227Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T18:02:15.227Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T18:02:15.227Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T18:02:18.796Z] INFO: Memory service initialized
+[2025-10-29T18:04:45.428Z] INFO: Starting persona service initialization...
+[2025-10-29T18:04:45.431Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T18:04:45.433Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T18:04:45.434Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T18:04:45.435Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T18:04:45.436Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T18:04:46.191Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T18:04:46.192Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T18:04:46.257Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T18:04:46.258Z] INFO: Registering personas...
+[2025-10-29T18:04:46.260Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T18:04:46.260Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T18:04:46.261Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T18:04:46.262Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T18:04:48.392Z] INFO: Memory service initialized
+[2025-10-29T18:13:05.016Z] INFO: Starting persona service initialization...
+[2025-10-29T18:13:05.020Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T18:13:05.021Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T18:13:05.022Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T18:13:05.023Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T18:13:05.023Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T18:13:05.388Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T18:13:05.388Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T18:13:05.414Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T18:13:05.414Z] INFO: Registering personas...
+[2025-10-29T18:13:05.414Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T18:13:05.415Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T18:13:05.415Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T18:13:05.415Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T18:13:07.012Z] INFO: Memory service initialized
+[2025-10-29T18:16:29.581Z] INFO: Starting persona service initialization...
+[2025-10-29T18:16:29.584Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T18:16:29.585Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T18:16:29.586Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T18:16:29.587Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T18:16:29.587Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T18:16:30.028Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T18:16:30.029Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T18:16:30.064Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T18:16:30.066Z] INFO: Registering personas...
+[2025-10-29T18:16:30.067Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T18:16:30.068Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T18:16:30.068Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T18:16:30.068Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T18:16:31.771Z] INFO: Memory service initialized
+[2025-10-29T18:56:19.279Z] INFO: Starting persona service initialization...
+[2025-10-29T18:56:19.286Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T18:56:19.289Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T18:56:19.291Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T18:56:19.292Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T18:56:19.292Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T18:56:19.828Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T18:56:19.829Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T18:56:19.864Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T18:56:19.865Z] INFO: Registering personas...
+[2025-10-29T18:56:19.866Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T18:56:19.866Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T18:56:19.866Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T18:56:19.866Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T18:56:21.791Z] INFO: Memory service initialized
+[2025-10-29T20:11:34.496Z] INFO: Starting persona service initialization...
+[2025-10-29T20:11:34.522Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-29T20:11:34.526Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-29T20:11:34.528Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-29T20:11:34.529Z] INFO: ✅ All persona files found and accessible
+[2025-10-29T20:11:34.530Z] INFO: Loading mathemagician.pro.js...
+[2025-10-29T20:11:37.573Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-29T20:11:37.573Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-29T20:11:37.836Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-29T20:11:37.837Z] INFO: Registering personas...
+[2025-10-29T20:11:37.840Z] INFO: Registered persona: mathemagician-pro
+[2025-10-29T20:11:37.840Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-29T20:11:37.841Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-29T20:11:37.841Z] INFO: ✅ Persona service initialized successfully
+[2025-10-29T20:11:52.022Z] INFO: Memory service initialized
+[2025-10-30T23:55:51.265Z] INFO: Starting persona service initialization...
+[2025-10-30T23:55:51.269Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-30T23:55:51.271Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-30T23:55:51.273Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-30T23:55:51.274Z] INFO: ✅ All persona files found and accessible
+[2025-10-30T23:55:51.275Z] INFO: Loading mathemagician.pro.js...
+[2025-10-30T23:55:52.349Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-30T23:55:52.350Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-30T23:55:52.420Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-30T23:55:52.421Z] INFO: Registering personas...
+[2025-10-30T23:55:52.423Z] INFO: Registered persona: mathemagician-pro
+[2025-10-30T23:55:52.423Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-30T23:55:52.424Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-30T23:55:52.424Z] INFO: ✅ Persona service initialized successfully
+[2025-10-30T23:55:55.646Z] INFO: Memory service initialized
+[2025-10-30T23:56:21.877Z] INFO: Starting persona service initialization...
+[2025-10-30T23:56:21.880Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-30T23:56:21.881Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-30T23:56:21.883Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-30T23:56:21.885Z] INFO: ✅ All persona files found and accessible
+[2025-10-30T23:56:21.886Z] INFO: Loading mathemagician.pro.js...
+[2025-10-30T23:56:22.230Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-30T23:56:22.230Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-30T23:56:22.254Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-30T23:56:22.256Z] INFO: Registering personas...
+[2025-10-30T23:56:22.256Z] INFO: Registered persona: mathemagician-pro
+[2025-10-30T23:56:22.256Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-30T23:56:22.257Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-30T23:56:22.257Z] INFO: ✅ Persona service initialized successfully
+[2025-10-30T23:56:23.544Z] INFO: Memory service initialized
+[2025-10-31T00:23:02.157Z] INFO: Starting persona service initialization...
+[2025-10-31T00:23:02.165Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-31T00:23:02.166Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-31T00:23:02.168Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-31T00:23:02.169Z] INFO: ✅ All persona files found and accessible
+[2025-10-31T00:23:02.169Z] INFO: Loading mathemagician.pro.js...
+[2025-10-31T00:23:02.631Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-31T00:23:02.631Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-31T00:23:02.662Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-31T00:23:02.662Z] INFO: Registering personas...
+[2025-10-31T00:23:02.663Z] INFO: Registered persona: mathemagician-pro
+[2025-10-31T00:23:02.663Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-31T00:23:02.663Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-31T00:23:02.663Z] INFO: ✅ Persona service initialized successfully
+[2025-10-31T00:23:04.421Z] INFO: Memory service initialized
+[2025-10-31T00:29:47.577Z] INFO: Starting persona service initialization...
+[2025-10-31T00:29:47.581Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-31T00:29:47.582Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-31T00:29:47.585Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-31T00:29:47.587Z] INFO: ✅ All persona files found and accessible
+[2025-10-31T00:29:47.588Z] INFO: Loading mathemagician.pro.js...
+[2025-10-31T00:29:48.211Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-31T00:29:48.213Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-31T00:29:48.250Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-31T00:29:48.251Z] INFO: Registering personas...
+[2025-10-31T00:29:48.252Z] INFO: Registered persona: mathemagician-pro
+[2025-10-31T00:29:48.253Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-31T00:29:48.253Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-31T00:29:48.253Z] INFO: ✅ Persona service initialized successfully
+[2025-10-31T00:29:50.428Z] INFO: Memory service initialized
+[2025-10-31T00:32:08.280Z] INFO: 
+🛑 Received SIGHUP. Shutting down gracefully...
+[2025-10-31T00:32:08.284Z] INFO: Bot state saved successfully
+[2025-10-31T00:32:41.711Z] INFO: Starting persona service initialization...
+[2025-10-31T00:32:41.713Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-31T00:32:41.714Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-31T00:32:41.717Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-31T00:32:41.717Z] INFO: ✅ All persona files found and accessible
+[2025-10-31T00:32:41.718Z] INFO: Loading mathemagician.pro.js...
+[2025-10-31T00:32:42.070Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-31T00:32:42.071Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-31T00:32:42.097Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-31T00:32:42.097Z] INFO: Registering personas...
+[2025-10-31T00:32:42.099Z] INFO: Registered persona: mathemagician-pro
+[2025-10-31T00:32:42.099Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-31T00:32:42.099Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-31T00:32:42.100Z] INFO: ✅ Persona service initialized successfully
+[2025-10-31T00:32:43.442Z] INFO: Memory service initialized
+[2025-10-31T00:34:13.073Z] INFO: Starting persona service initialization...
+[2025-10-31T00:34:13.076Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-31T00:34:13.077Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-31T00:34:13.078Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-31T00:34:13.080Z] INFO: ✅ All persona files found and accessible
+[2025-10-31T00:34:13.081Z] INFO: Loading mathemagician.pro.js...
+[2025-10-31T00:34:13.391Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-31T00:34:13.391Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-31T00:34:13.412Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-31T00:34:13.412Z] INFO: Registering personas...
+[2025-10-31T00:34:13.413Z] INFO: Registered persona: mathemagician-pro
+[2025-10-31T00:34:13.413Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-31T00:34:13.414Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-31T00:34:13.414Z] INFO: ✅ Persona service initialized successfully
+[2025-10-31T00:34:14.602Z] INFO: Memory service initialized
+[2025-10-31T00:36:40.700Z] INFO: Starting persona service initialization...
+[2025-10-31T00:36:40.703Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-31T00:36:40.704Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-31T00:36:40.705Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-31T00:36:40.705Z] INFO: ✅ All persona files found and accessible
+[2025-10-31T00:36:40.706Z] INFO: Loading mathemagician.pro.js...
+[2025-10-31T00:36:41.053Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-31T00:36:41.054Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-31T00:36:41.078Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-31T00:36:41.079Z] INFO: Registering personas...
+[2025-10-31T00:36:41.080Z] INFO: Registered persona: mathemagician-pro
+[2025-10-31T00:36:41.080Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-31T00:36:41.080Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-31T00:36:41.081Z] INFO: ✅ Persona service initialized successfully
+[2025-10-31T00:36:42.385Z] INFO: Memory service initialized
+[2025-10-31T01:25:40.040Z] INFO: Starting persona service initialization...
+[2025-10-31T01:25:40.053Z] DEBUG: Base persona directory: C:\Users\clive\pdfbot\killerC\persona
+[2025-10-31T01:25:40.055Z] DEBUG: Looking for persona files at: {
+  proPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+  enhancedPath: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+  proExists: true,
+  enhancedExists: true
+}
+[2025-10-31T01:25:40.057Z] DEBUG: File status check: [
+  {
+    name: 'mathemagician.pro.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.pro.js',
+    exists: true,
+    readable: true
+  },
+  {
+    name: 'mathemagician.enhanced.js',
+    path: 'C:\\Users\\clive\\pdfbot\\killerC\\persona\\mathemagician.enhanced.js',
+    exists: true,
+    readable: true
+  }
+]
+[2025-10-31T01:25:40.057Z] INFO: ✅ All persona files found and accessible
+[2025-10-31T01:25:40.058Z] INFO: Loading mathemagician.pro.js...
+[2025-10-31T01:25:40.778Z] INFO: ✅ Loaded mathemagician.pro.js
+[2025-10-31T01:25:40.779Z] INFO: Loading mathemagician.enhanced.js...
+[2025-10-31T01:25:40.826Z] INFO: ✅ Loaded mathemagician.enhanced.js
+[2025-10-31T01:25:40.827Z] INFO: Registering personas...
+[2025-10-31T01:25:40.828Z] INFO: Registered persona: mathemagician-pro
+[2025-10-31T01:25:40.828Z] INFO: Registered persona: mathemagician-enhanced
+[2025-10-31T01:25:40.829Z] INFO: Active persona set to: mathemagician-enhanced
+[2025-10-31T01:25:40.830Z] INFO: ✅ Persona service initialized successfully
+[2025-10-31T01:25:43.514Z] INFO: Memory service initialized
+[2025-10-31T21:30:03.073Z] INFO: Memory service initialized
+[2025-10-31T21:45:51.323Z] INFO: Memory service initialized
+[2025-10-31T21:50:24.626Z] INFO: Memory service initialized
+[2025-10-31T21:56:42.343Z] INFO: Memory service initialized
+[2025-10-31T22:00:58.639Z] INFO: Memory service initialized
+[2025-11-01T04:11:13.100Z] ERROR: UNHANDLED REJECTION at: Promise {
+  <rejected> Error: Timed Out
+      at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+    data: {
+      stack: 'Error\n' +
+        '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+        '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+        '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+        '    at C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:204:19\n' +
+        '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+        '    at async Object.transaction (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\auth-utils.js:135:26)\n' +
+        '    at async uploadPreKeys (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:201:9)\n' +
+        '    at async uploadPreKeysToServerIfRequired (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:213:13)\n' +
+        '    at async WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:514:9)'
+    },
+    isBoom: true,
+    isServer: false,
+    output: { statusCode: 408, payload: [Object], headers: {} }
+  }
+} reason: Error: Timed Out
+    at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+  data: {
+    stack: 'Error\n' +
+      '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+      '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+      '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+      '    at C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:204:19\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+      '    at async Object.transaction (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\auth-utils.js:135:26)\n' +
+      '    at async uploadPreKeys (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:201:9)\n' +
+      '    at async uploadPreKeysToServerIfRequired (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:213:13)\n' +
+      '    at async WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:514:9)'
+  },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 408,
+    payload: {
+      statusCode: 408,
+      error: 'Request Time-out',
+      message: 'Timed Out'
+    },
+    headers: {}
+  }
+}
+[2025-11-01T04:11:24.450Z] INFO: Memory service initialized
+[2025-11-01T12:36:50.277Z] ERROR: UNHANDLED REJECTION at: Promise {
+  <rejected> Error: Timed Out
+      at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+    data: {
+      stack: 'Error\n' +
+        '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+        '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+        '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+        '    at getAvailablePreKeysOnServer (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:184:30)\n' +
+        '    at uploadPreKeysToServerIfRequired (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:210:35)\n' +
+        '    at WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:514:15)\n' +
+        '    at WebSocketClient.emit (node:events:519:28)\n' +
+        '    at C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:241:35\n' +
+        '    at Object.decodeFrame (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\noise-handler.js:144:17)\n' +
+        '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)'
+    },
+    isBoom: true,
+    isServer: false,
+    output: { statusCode: 408, payload: [Object], headers: {} }
+  }
+} reason: Error: Timed Out
+    at C:\Users\clive\pdfbot\killerC\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:151:32 {
+  data: {
+    stack: 'Error\n' +
+      '    at promiseTimeout (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:146:19)\n' +
+      '    at waitForMessage (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:120:61)\n' +
+      '    at query (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:144:13)\n' +
+      '    at getAvailablePreKeysOnServer (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:184:30)\n' +
+      '    at uploadPreKeysToServerIfRequired (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:210:35)\n' +
+      '    at WebSocketClient.<anonymous> (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:514:15)\n' +
+      '    at WebSocketClient.emit (node:events:519:28)\n' +
+      '    at C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:241:35\n' +
+      '    at Object.decodeFrame (C:\\Users\\clive\\pdfbot\\killerC\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\noise-handler.js:144:17)\n' +
+      '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)'
+  },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 408,
+    payload: {
+      statusCode: 408,
+      error: 'Request Time-out',
+      message: 'Timed Out'
+    },
+    headers: {}
+  }
+}
+[2025-11-01T12:49:31.602Z] INFO: Memory service initialized
+[2025-11-01T22:26:13.766Z] INFO: Memory service initialized
