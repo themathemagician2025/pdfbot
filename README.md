@@ -1,5 +1,5 @@
 # 🎩 Bailey Library - The Mathemagician
-
+#I am not the owner of bailey libraries i repeat i do not own any part of it but customized it only
 ## Industrial-Grade WhatsApp PDF Library Bot
 
 [![Status](https://img.shields.io/badge/status-production%20ready-success)](.)
@@ -487,3 +487,4 @@ Special thanks to all contributors and the open-source community!
 - 🔧 [Admin Panel](killerC/admin/)
 - 🐛 [Report Issues](https://github.com/themathemagician2025/pdfbot/issues)
 - ⭐ [Star on GitHub](https://github.com/themathemagician2025/pdfbot)
+
